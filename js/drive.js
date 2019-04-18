@@ -1,3 +1,9 @@
+/**
+ * Copyright 2019, Giao Vu
+ * 
+ * Interface code for Google Drive API, performing folder
+ * and file operations.
+ */
 const {google} = require('googleapis');
 const async = require('async');
 

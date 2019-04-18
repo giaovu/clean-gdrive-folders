@@ -1,4 +1,6 @@
 /**
+ * Copyright 2019, Giao Vu
+ * 
  * App module, controlling all UI functions.
  */
 const {google} = require('googleapis');

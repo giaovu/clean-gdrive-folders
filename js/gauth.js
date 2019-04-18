@@ -1,7 +1,7 @@
 /**
- * gauth module.
+ * Copyright 2019, Giao Vu
  * 
- * @author  Giao Vu <giao.t.vu@gmail.com>
+ * gauth module, for Google API authentication
  */
 const fs = require('fs');
 const {google} = require('googleapis');
