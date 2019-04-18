@@ -71,6 +71,9 @@ module.exports = {
                             // shutdown the server
                             server.destroy();
                             const {tokens} = await oauth2Client.getToken(qs.get('code'));
+                            // the tokens could be saved to allow the use of this app without
+                            // having to go through the entire OAuth exercise everytime.
+                            // But the current behavior is more secure and therefore acceptable.
                             oauth2Client.credentials = tokens;
                             resolve(oauth2Client);
                         }
