@@ -1,0 +1,192 @@
+img {
+    float: left;
+}
+
+.applogo {
+    width: 48px;
+    height: 48px;
+}
+
+span#apptitle {
+    float: left;
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 1px 1px #ddd;
+    padding: 16px;
+}
+
+div#folderinputdiv {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#foldername {
+    width: 40%;
+}
+
+#folderid {
+    width: 40%;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+div#targetdiv {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffee;
+}
+
+#specifiedName, #specifiedId {
+    margin-left: 30px;
+}
+
+div#busydiv {
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+div#busymsgdiv {
+    font-size: 20px;
+    text-align: center;
+}
+
+div#busydetaildiv {
+    font-size: 16px;
+    text-align: center;
+}
+
+div#outputdiv {
+    padding: 10px;
+}
+
+div.notice {
+    background-color: lightgrey;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.folders {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.folders th {
+    background: #5f5f5f;
+    color: #f1f1f1;
+    padding: 3px;
+    border: black 1px solid;
+}
+
+.folders tr:nth-child(even) {
+    background: #f2f2f2
+}
+
+.folders tr:nth-child(odd) {
+    background: #FFF
+}
+
+.folders tr:hover {
+    background-color: lightpink;
+}
+
+.folders td {
+    padding: 3px;
+    border: black 1px solid;
+}
+
+.cdelete {
+    background: #e9c6af;
+    font-style: normal;
+}
+
+.plans {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.plans th {
+    background: #5f5f5f;
+    color: #f1f1f1;
+    padding: 3px;
+    border: black 1px solid;
+}
+
+.plans td {
+    padding: 3px;
+    border: black 1px solid;
+}
+
+.logs {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.logs tr.aremoved {
+    background: #FFF;
+}
+
+.logs tr.aerror {
+    background: lightcoral;
+    font-weight: bold;
+}
+
+.logs th {
+    background: black;
+    color: white;
+    padding: 3px;
+    border: black 1px solid;
+}
+
+.logs td {
+    padding: 3px;
+    border: black 1px solid;
+}
+
+#busyspinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    border: 6px transparent;
+    border-radius: 50%;
+    border-top: 6px solid lightblue;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  

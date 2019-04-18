@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google Drive Folder Cleaner</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <img class="applogo" src="vlogo.svg" />
+        <span id="apptitle">Google Drive Folder Cleaner</span>
+    </header>
+    <div style="clear: both;"></div>
+    <div id="messagediv"></div>
+    <div id="folderinputdiv">
+        Folder Search:<br/>
+        <input type="text" id="foldername" placeholder="Folder name (full or partial)..." />
+        <input type="text" id="folderid" placeholder="Folder id (exact)..." />
+        <button id="searchbtn">Search</button>
+    </div>
+    <div id="targetdiv">
+        Folder Selected to Clear:<br/>
+        <div id="specifiedName"></div>
+        <div id="specifiedId"></div>
+        <br/>
+        <button id="clearbtn">Clear All Files</button>
+    </div>
+    <div id="busydiv">
+        <div id="busymsgdiv"></div>
+        <div id="busydetaildiv"></div>
+        <div id="busyspinner"></div>
+    </div>
+    <div id="statusdiv"></div>
+    <div id="outputdiv"></div>
+    <script src="./js/app.js">
+    </script>
+  </body>
+</html>
