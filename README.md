@@ -1,7 +1,7 @@
 # clean-gdrive-folders
 An Electron app to help remove files under a Google Drive folder tree.
 
-A charitable organization asked me to write for them an app to aid the mass removal files under a Google Drive folder tree while keeping the folders themselves intact. Initially I wrote a python script to do the job, but I found that while the command line interface was adequate, it wasn't very user-friendly when folder tree contains folders with duplicate names. I came up with this app.
+A charitable organization asked me to write for them an app to aid the mass removal files under a Google Drive folder tree while keeping the folders themselves intact. Initially I wrote a python script to do the job, but I found that while the command line interface was adequate, it wasn't very user-friendly when folder tree contained folders with duplicate names. There was a need for an UI app.
 
 As the application is intended to be cross-platform, it's implemented using Electron.
 
